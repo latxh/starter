@@ -14,8 +14,8 @@
   position: relative;
 }
 .carousel__video {
-  width: 550px;
-  height: 310px;
+  width: 300px;
+  height: 400px;
   position: absolute;
   transition: all 0.5s;
 }
@@ -56,8 +56,8 @@
   display: none;
 }
 .carousel__video.secondary {
-  width: 467.5px;
-  height: 263.5px;
+  width: 270px;
+  height: 360px;
   z-index: 2;
 }
 .carousel__video.secondary-left {
@@ -71,8 +71,8 @@
   transform: translate(-80%, -50%);
 }
 .carousel__video.tertiary {
-  width: 385px;
-  height: 217px;
+  width: 225px;
+  height: 300px;
   z-index: 1;
 }
 .carousel__video.tertiary-left {
