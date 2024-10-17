@@ -1,0 +1,49 @@
+.top {
+  min-height: calc(calc(100vh - 560px));
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  max-width: 1230px;
+}
+
+.greeting {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.greeting-text {
+  color: var(--greeting-font);
+  margin-bottom: 2px;
+}
+
+.copilot {
+  height: 28px;
+  width: 28px;
+  filter: invert(22%) sepia(14%) saturate(1527%) hue-rotate(163deg)
+    brightness(90%) contrast(90%);
+}
+
+.dark .copilot {
+  filter: invert(92%) sepia(7%) saturate(190%) hue-rotate(173deg)
+    brightness(88%) contrast(88%);
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 100px;
+  background-color: blue;
+}
+
+@media only screen and (max-width: 1272px) {
+}
+
+@media only screen and (max-width: 948px) {
+}
+
+@media only screen and (max-width: 584px) {
+}

@@ -1,0 +1,169 @@
+body {
+  height: 2000px;
+}
+
+.search-wrapper {
+  box-shadow: 0px 8px 32px 0 var(--search-shadow);
+  position: sticky;
+  top: 17px;
+  margin: 64px auto 0;
+  max-width: 500px;
+  padding: 8px 14px 8px 8px;
+  border-radius: 50px;
+  background-color: var(--search-wrapper);
+  height: 58px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 630ms
+    linear(
+      0,
+      -0.0185,
+      0.0298,
+      0.0897,
+      0.149,
+      0.204,
+      0.257,
+      0.306,
+      0.351,
+      0.394,
+      0.434,
+      0.471,
+      0.506,
+      0.538,
+      0.568,
+      0.597,
+      0.623,
+      0.648,
+      0.672,
+      0.693,
+      0.713,
+      0.732,
+      0.75,
+      0.766,
+      0.781,
+      0.796,
+      0.809,
+      0.822,
+      0.834,
+      0.845,
+      0.855,
+      0.864,
+      0.873,
+      0.881,
+      0.889,
+      0.897,
+      0.903,
+      0.91,
+      0.916,
+      0.921,
+      0.926,
+      0.931,
+      0.936,
+      0.94,
+      0.944,
+      0.948,
+      0.951,
+      0.954,
+      0.957,
+      0.96,
+      0.963,
+      0.965,
+      0.967,
+      0.97,
+      0.972,
+      0.973,
+      0.975,
+      0.977,
+      0.978,
+      0.98,
+      0.981,
+      0.982,
+      0.984,
+      0.985,
+      0.986,
+      0.987,
+      0.987,
+      0.988,
+      0.989,
+      0.99,
+      0.99,
+      0.991,
+      0.992,
+      0.992,
+      0.993,
+      0.993,
+      0.994,
+      0.994,
+      0.994,
+      0.995,
+      0.995,
+      0.995,
+      0.996,
+      0.996,
+      0.996,
+      0.997,
+      0.997,
+      0.997,
+      0.997,
+      0.997,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.998,
+      0.999,
+      0.999,
+      0.999,
+      0.999,
+      0.999,
+      0.999,
+      0.999,
+      1
+    );
+}
+
+.search {
+  font-family: "Segoe UI Variable Static Text", "Segoe UI", Tahoma, Geneva,
+    Verdana, sans-serif;
+  color: var(--font-3);
+  font-size: 15px;
+  box-shadow: inset 0 1px 2px var(--search-inner);
+  border: none;
+  outline: none;
+  background-color: var(--search-box);
+  flex: 1;
+  height: 100%;
+  border-radius: 50px;
+  padding: 0 18px;
+}
+
+.search::placeholder {
+  color: var(--font-3);
+}
+
+.search-wrapper:has(> .search:focus) {
+  max-width: 700px;
+}
+
+.mic-img {
+  background-color: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px;
+  filter: invert(32%) sepia(4%) saturate(796%) hue-rotate(173deg)
+    brightness(88%) contrast(95%);
+  transition: all 0.2s;
+}
+
+.mic-img:hover {
+  background-color: var(--search-inner);
+}
+
+.dark .mic-img {
+  filter: invert(81%) sepia(4%) saturate(338%) hue-rotate(173deg)
+    brightness(100%) contrast(90%);
+}
