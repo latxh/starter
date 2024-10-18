@@ -19,14 +19,15 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(20, 0, 0, 1);
-  border-radius: 5px;
+  background-color: grey;
+  box-shadow: 0px 8px 32px 0 var(--search-shadow);
+  border-radius: 24px;
   transition: all 0.2s ease-out;
 }
 .carousel__video .inactive:hover {
   cursor: pointer;
   transform: scale(1.02);
-  background-color: rgba(20, 20, 20, 1);
+  background-color: darkgrey;
 }
 .carousel__video.main {
   top: 50%;
@@ -40,7 +41,7 @@
 .carousel__video.main .inactive:hover {
   cursor: initial;
   transform: scale(1);
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: gainsboro;
 }
 .carousel__video.main .inactive:hover + img {
   transform: scale(1);
